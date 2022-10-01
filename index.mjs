@@ -15,7 +15,7 @@ expressServer.use(express.static("public"));
 expressServer.use(
   "/arc",
   createProxyMiddleware({
-    target: "https://arc.io/widget.min.js#w55NMRME",
+    target: "https://arc.io/widget.min.js",
     changeOrigin: true,
     secure: true,
     ws: true,
